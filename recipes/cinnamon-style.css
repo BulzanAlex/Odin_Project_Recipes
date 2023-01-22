@@ -1,0 +1,44 @@
+#site-block {
+    box-sizing: border-box;
+    margin: auto;
+    width: 60%;
+    background-color: rgba(224, 106, 76, 0.6);
+    padding: 3em;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.8em;
+}
+
+.rolls-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.subtitles {
+    position: relative;
+    left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.9em;
+}
+
+.ingredients-title {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 1.5em;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.description-text,
+.ingredients-text,
+.steps-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
