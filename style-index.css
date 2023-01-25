@@ -26,10 +26,12 @@ body {
     margin: auto;
     width: 100%;
     background-color: rgb(213, 213, 180);
-    margin-top: 1em;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    padding: 25px;
+    border-radius: 10px;
+    gap: 30px;
 }
 
 .margherita {
@@ -40,10 +42,16 @@ body {
     position: relative;
 }
 
+.pizza-img {
+    width: 100%;
+}
+
 .pizza-img img {
     width: 100%;
+    height: auto;
     display: flex;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .margherita-text-block .margherita-link-block .margherita-title {
@@ -54,5 +62,7 @@ body {
 .left-side-margherita {
     display: flex;
     flex-direction: column;
-    align-items: space-between;
+    height: 100%;
+    justify-content: space-between;
+    width: 100%;
 }
