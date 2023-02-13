@@ -39,7 +39,7 @@ body {
 }
 
 .margherita-background {
-    background-color: rgb(213, 213, 180);
+    background-color: rgb(255, 155, 118);
     display: flex;
     justify-content: space-between;
     padding: 25px;
@@ -70,8 +70,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .margherita-text {
@@ -81,7 +79,44 @@ body {
     text-align: center;
 }
 
+.margherita-button {
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(255, 155, 118);
+    transition: all 0.4s ease
+}
 
+.margherita-button:hover {
+    background-color: rgb(129, 191, 129);
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    text-decoration: none;
+}
+
+.margherita-link-text {
+    color: white;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.margherita-button:hover .margherita-link-text{
+    color:black;
+}
 
 .pizza-img img {
     width: 40em;
