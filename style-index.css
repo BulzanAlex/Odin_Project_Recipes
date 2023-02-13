@@ -96,16 +96,7 @@ body {
 
 .margherita-button:hover {
     background-color: rgb(129, 191, 129);
-    width: 200px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid;
-    border-radius: 20px;
     border-color: black;
-    border-width: 3px;
-    text-decoration: none;
 }
 
 .margherita-link-text {
