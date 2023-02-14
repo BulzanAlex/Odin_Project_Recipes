@@ -124,7 +124,7 @@ body {
 }
 
 .shawarma-background {
-    background-color: rgb(135, 79, 49);
+    background-color: rgb(222, 166, 105);
     display: flex;
     flex-basis: 84em;
     justify-content: space-between;
@@ -177,7 +177,7 @@ body {
     text-decoration: none;
     border: solid;
     border-width: 3px;
-    border-color: rgb(135, 79, 49);
+    border-color: rgb(222, 166, 105);
     transition: all 0.4s ease;
     box-shadow: 5px 5px 0 black;
 }
@@ -199,5 +199,5 @@ body {
 }
 
 .shawarma-button:hover .shawarma-button-text{
-    color:black;
+    color:white;
 }
