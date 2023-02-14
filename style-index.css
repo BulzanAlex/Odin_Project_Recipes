@@ -9,7 +9,6 @@ body {
 } */
 
 .title-container {
-    margin-bottom: 15px;
     display: flex;
     justify-content: center;
 }
@@ -39,7 +38,8 @@ body {
 }
 
 .margherita-background {
-    background-color: rgb(255, 155, 118);
+    background-color: rgb(237, 89, 46);
+    /* background-color: rgb(255, 155, 118); */
     display: flex;
     justify-content: space-between;
     padding: 25px;
@@ -86,13 +86,13 @@ body {
     text-decoration: none;
     border: solid;
     border-width: 3px;
-    border-color: rgb(255, 155, 118);
+    border-color: rgb(237, 89, 46);
     transition: all 0.4s ease;
     box-shadow: 5px 5px 0 black;
 }
 
 .margherita-button:hover {
-    background-color: rgb(129, 191, 129);
+    background-color: rgb(84, 149, 60);
     border-color: black;
 }
 
@@ -114,8 +114,90 @@ body {
 .pizza-img img {
     width: 40em;
     display: flex;
-    border-radius: 10px;
+    border-radius: 1em;
 }
 
+.shawarma-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
 
+.shawarma-background {
+    background-color: rgb(135, 79, 49);
+    display: flex;
+    flex-basis: 84em;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 1em;
+    gap: 30px;
+}
 
+.shawarma-img img {
+    display: flex;
+    width: 40em;
+    border-radius: 1em;
+    height: 488px;
+}
+
+.shawarma-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.shawarma-title {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.shawarma-text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shawarma-text {
+    font-family: 'Times New Roman', Times, serif;
+    flex-basis: 500px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.shawarma-button {
+    background-color: black;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(135, 79, 49);
+    transition: all 0.4s ease;
+    box-shadow: 5px 5px 0 black;
+}
+
+.shawarma-button:hover {
+    background-color: rgb(196, 25, 5);
+    border-color: black;
+}
+
+.shawarma-button:active {
+    box-shadow: 2px 2px 0 black;
+    transform: translate(3px, 3px);
+}
+
+.shawarma-button-text {
+    color: rgb(245, 245, 220);
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.shawarma-button:hover .shawarma-button-text{
+    color:black;
+}
