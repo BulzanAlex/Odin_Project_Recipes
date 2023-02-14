@@ -43,20 +43,16 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 25px;
-    border-radius: 10px;
+    border-radius: 1em;
     gap: 30px;
     flex-basis: 84em;
 }
 
 .left-side-margherita {
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: space-evenly;
-    /* gap: 50px; */
-    /* width: 100%; */
     align-items: center;
-    /* flex-basis: 200px; */
     
 }
 
@@ -117,9 +113,7 @@ body {
 
 .pizza-img img {
     width: 40em;
-    /* height: auto; */
     display: flex;
-    /* object-fit: cover; */
     border-radius: 10px;
 }
 
