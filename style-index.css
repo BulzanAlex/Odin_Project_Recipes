@@ -31,7 +31,7 @@ body {
     font-size: 3em;
 }
 
-.margherita-block {
+.margherita-block, .shawarma-block, .cinnamon-block {
 
     margin-top: 15px;
     display: flex;
@@ -39,9 +39,7 @@ body {
     
 }
 
-.margherita-background {
-    background-color: rgb(237, 89, 46);
-    /* background-color: rgb(255, 155, 118); */
+.margherita-background, .shawarma-background, .cinnamon-background{
     display: flex;
     justify-content: space-between;
     padding: 25px;
@@ -50,7 +48,12 @@ body {
     flex-basis: 84em;
 }
 
-.left-side-margherita {
+
+.margherita-background {
+    background-color: rgb(237, 89, 46);
+}
+
+.left-side-margherita, .shawarma-left-side, .cinnamon-left-side {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -58,26 +61,26 @@ body {
     
 }
 
-.margherita-title {
+.margherita-title, .shawarma-title, .cinnamon-title {
     font-family:'Times New Roman', Times, serif;
     font-size: 40px;
     font-weight: 900;
 }
 
-.margherita-text-box{ 
+.margherita-text-box, .shawarma-text-box, .cinnamon-text-box { 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.margherita-text {
+.margherita-text, .shawarma-text, .cinnamon-text {
     font-family: 'Times New Roman', Times, serif;
     flex-basis: 500px;
     font-size: 25px;
     text-align: center;
 }
 
-.margherita-button {
+.margherita-button, .shawarma-button, .cinnamon-button {
     background-color: rgb(0, 0, 0);
     width: 200px;
     height: 60px;
@@ -88,9 +91,12 @@ body {
     text-decoration: none;
     border: solid;
     border-width: 3px;
-    border-color: rgb(237, 89, 46);
     transition: all 0.4s ease;
     box-shadow: 5px 5px 0 black;
+}
+
+.margherita-button {
+    border-color: rgb(237, 89, 46);
 }
 
 .margherita-button:hover {
@@ -98,18 +104,18 @@ body {
     border-color: black;
 }
 
-.margherita-button:active {
+.margherita-button:active, .shawarma-button:active, .cinnamon-button:active {
     box-shadow: 2px 2px 0 black;
     transform: translate(3px, 3px);
 }
 
-.margherita-link-text {
+.margherita-link-text, .shawarma-button-text, .cinnamon-button-text {
     color: white;
     font-size: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.margherita-button:hover .margherita-link-text{
+.margherita-button:hover .margherita-link-text, .cinnamon-button:hover .cinnamon-button-text{
     color:black;
 }
 
@@ -119,69 +125,19 @@ body {
     border-radius: 1em;
 }
 
-.shawarma-block {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
-
 .shawarma-background {
     background-color: rgb(222, 166, 105);
-    display: flex;
-    flex-basis: 84em;
-    justify-content: space-between;
-    padding: 25px;
-    border-radius: 1em;
-    gap: 30px;
 }
 
-.shawarma-img img {
+.shawarma-img img, .cinnamon-image img {
     display: flex;
     width: 40em;
     border-radius: 1em;
     height: 488px;
 }
 
-.shawarma-left-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.shawarma-title {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 40px;
-    font-weight: 900;
-}
-
-.shawarma-text-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.shawarma-text {
-    font-family: 'Times New Roman', Times, serif;
-    flex-basis: 500px;
-    font-size: 25px;
-    text-align: center;
-}
-
 .shawarma-button {
-    background-color: black;
-    width: 200px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    text-decoration: none;
-    border: solid;
-    border-width: 3px;
     border-color: rgb(222, 166, 105);
-    transition: all 0.4s ease;
-    box-shadow: 5px 5px 0 black;
 }
 
 .shawarma-button:hover {
@@ -189,84 +145,16 @@ body {
     border-color: black;
 }
 
-.shawarma-button:active {
-    box-shadow: 2px 2px 0 black;
-    transform: translate(3px, 3px);
-}
-
-.shawarma-button-text {
-    color: rgb(245, 245, 220);
-    font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
 .shawarma-button:hover .shawarma-button-text{
     color:white;
 }
 
-.cinnamon-block {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
-
 .cinnamon-background {
     background-color: #efad4f;
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    flex-basis: 84em;
-    padding: 25px;
-    border-radius: 1em;
-}
-
-.cinnamon-image img {
-    display: flex;
-    width: 40em;
-    height: 488px;
-    border-radius: 1em;
-}
-
-.cinnamon-left-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.cinnamon-title {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    font-weight: 900;
-}
-
-.cinnamon-text-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cinnamon-text {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    flex-basis: 500px;
-    font-size: 25px;
 }
 
 .cinnamon-button {
-    background-color: black;
-    width: 200px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    text-decoration: none;
-    border: solid;
-    border-width: 3px;
     border-color: #efad4f;
-    transition: all 0.4s ease;
-    box-shadow: 5px 5px 0 black;
 }
 
 .cinnamon-button:hover {
@@ -274,17 +162,3 @@ body {
     border-color: black;
 }
 
-.cinnamon-button:active {
-    box-shadow: 2px 2px 0 black;
-    transform: translate(3px, 3px);
-}
-
-.cinnamon-button-text {
-    color: rgb(245, 245, 220);
-    font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.cinnamon-button:hover .cinnamon-button-text {
-    color: black;
-}
