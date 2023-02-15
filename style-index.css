@@ -162,3 +162,12 @@ body {
     border-color: black;
 }
 
+.sign-up-bar {
+    background-color: black;
+    margin: auto;
+    width: 87em;
+    height: 81px;
+    margin-top: 15px;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
