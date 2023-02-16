@@ -191,6 +191,7 @@ body {
     align-items: center;
     border-radius: 2em;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 
 .newsletter-button:active {
@@ -205,29 +206,57 @@ body {
 }
 
 .newsletter-form {
-    background-color: white;
     width: 72%;
-    height: 20em;
+    height: 12em;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 15px;
     flex-direction: column;
+    gap: 30px;
 }
 
 .first-last {
     display: flex;
     flex-direction: row;
     gap: 50px;
+    justify-content: space-between;
 }
 
-#first-name, #last-name {
+.input-name {
     height: 80px;
-    width: 469px;
-    border-color: white;
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: black;
+    outline: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
 }
 
-#first-name::placeholder, #last-name::placeholder {
+.input-name::placeholder, .email::placeholder {
     font-size: 30px;
-    color: red;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.email {
+    height: 80px;
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: black;
+    outline: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.email:autofill {
+    background-color: black;
+}
+
+input:webkit-autofill {
+    background-color: black;
 }
