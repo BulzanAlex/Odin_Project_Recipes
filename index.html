@@ -73,25 +73,31 @@
             </div>
         </div>
         <footer>
-            <form class="newsletter-box">
-                <p class="newsletter-text">
-                    Subscribe to our newsletter to get notified of more awesome recipes like these!
-                </p>
-                <div class="newsletter-form">
-                    <div class="first-last">
-                        <input type="text" class="input-name" name="first-name" placeholder="Enter your first name">
+            <form id="newsletter-box">
+            <p class="newsletter-text">
+                Subscribe to our newsletter to get notified of more awesome recipes like these!
+            </p>
+            <div class="newsletter-form">
+                <div class="first-last">
+                    <input type="text" class="input-name" name="first-name" placeholder="Enter your first name">
 
-                        </input>
-                        <input type="text" class="input-name" name="last-name" placeholder="Enter your last name">
+                    </input>
+                    <input type="text" class="input-name" name="last-name" placeholder="Enter your last name">
 
-                        </input>
-                    </div>
-                    <input type="text" class="email" name="email" placeholder="Enter your e-mail address">
-
-                </input>
+                    </input>
                 </div>
-                <input type="submit" class="newsletter-button" value= "Subscribe" onclick="showPopUp()" ></input>
+                <input type="text" class="email" name="email" placeholder="Enter your e-mail address">
+
+            </input>
+            </div>
+            <input type="button" class="newsletter-button" value= "Subscribe" onclick="showPopUp()" ></input>
             </form>
+            <div class="popup" id="popup">
+                <img src="./images/tick.jpg">
+                <h2>You have successfully subscribed to our newsletter.
+                <br>Thanks!</h2>
+                <button type="button">OK</button>
+            </div>
         </footer>
     </div>
 </body>
