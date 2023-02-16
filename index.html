@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html practice - Recipes</title>
     <link rel="stylesheet" href="style-index.css">
+    <script src="./index.js"></script>
 </head>
 <body>
     <div class="page-container">
@@ -71,26 +72,26 @@
                 </div>
             </div>
         </div>
-        <footer class="newsletter-box">
-            <p class="newsletter-text">
-                Subscribe to our newsletter to get notified of more awesome recipes like these!
-            </p>
-            <div class="newsletter-form">
-                <div class="first-last">
-                    <input type="text" class="input-name" name="first-name" placeholder="Enter your first name">
+        <footer>
+            <form class="newsletter-box">
+                <p class="newsletter-text">
+                    Subscribe to our newsletter to get notified of more awesome recipes like these!
+                </p>
+                <div class="newsletter-form">
+                    <div class="first-last">
+                        <input type="text" class="input-name" name="first-name" placeholder="Enter your first name">
 
-                    </input>
-                    <input type="text" class="input-name" name="last-name" placeholder="Enter your last name">
+                        </input>
+                        <input type="text" class="input-name" name="last-name" placeholder="Enter your last name">
 
-                    </input>
+                        </input>
+                    </div>
+                    <input type="text" class="email" name="email" placeholder="Enter your e-mail address">
+
+                </input>
                 </div>
-                <input type="text" class="email" name="email" placeholder="Enter your e-mail address">
-
-            </input>
-            </div>
-            <div role="button" class="newsletter-button" onclick="showPopUp()">
-                <h1 class="news-btn-txt">Subscribe</h1>
-            </div>
+                <input type="submit" class="newsletter-button" value= "Subscribe" onclick="showPopUp()" ></input>
+            </form>
         </footer>
     </div>
 </body>
