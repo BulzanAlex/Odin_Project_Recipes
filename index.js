@@ -1,6 +1,21 @@
+var popUp = document.getElementById('popups');
 
-function showPopUp(){
-    document.getElementsByName('first-name')[0].value = '';
+var firstName = document.getElementsByName('first-name');
+
+function stopRefresh() {
+    firstName[0].value = '';
     document.getElementsByName('last-name')[0].value = '';
     document.getElementsByName('email')[0].value = '';
-}
+};
+
+function showPopUp() {
+    if (popUp) {
+    popUp.classList.add('openpopup');
+    };
+};
+
+function closePopUp() {
+    if (popUp) {
+    popUp.classList.remove("openpopup");
+    };
+};

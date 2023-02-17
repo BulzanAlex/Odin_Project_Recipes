@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html practice - Recipes</title>
     <link rel="stylesheet" href="style-index.css">
-    <script src="./index.js"></script>
 </head>
 <body>
     <div class="page-container">
@@ -74,31 +73,26 @@
         </div>
         <footer>
             <form id="newsletter-box">
-            <p class="newsletter-text">
-                Subscribe to our newsletter to get notified of more awesome recipes like these!
-            </p>
-            <div class="newsletter-form">
-                <div class="first-last">
-                    <input type="text" class="input-name" name="first-name" placeholder="Enter your first name">
-
-                    </input>
-                    <input type="text" class="input-name" name="last-name" placeholder="Enter your last name">
-
-                    </input>
+                <p class="newsletter-text">
+                    Subscribe to our newsletter to get notified of more awesome recipes like these!
+                </p>
+                <div class="newsletter-form">
+                    <div class="first-last">
+                        <input type="text" class="input-name" name="first-name" placeholder="Enter your first name"></input>
+                        <input type="text" class="input-name" name="last-name" placeholder="Enter your last name"></input>
+                    </div>
+                    <input type="text" class="email" name="email" placeholder="Enter your e-mail address"></input>
                 </div>
-                <input type="text" class="email" name="email" placeholder="Enter your e-mail address">
-
-            </input>
-            </div>
-            <input type="button" class="newsletter-button" value= "Subscribe" onclick="showPopUp()" ></input>
+                <input type="button" class="newsletter-button" value = "Subscribe" onclick="stopRefresh(); showPopUp();" ></input>
+                <div class = "popup" id="popups">
+                    <img src="./images/tick.jpg">
+                    <h2>You have successfully subscribed to our newsletter.
+                    <br>Thanks!</h2>
+                    <button class="ok-btn" type="button" onclick="closePopUp()">OK</button>
+                </div>
             </form>
-            <div class="popup" id="popup">
-                <img src="./images/tick.jpg">
-                <h2>You have successfully subscribed to our newsletter.
-                <br>Thanks!</h2>
-                <button type="button">OK</button>
-            </div>
         </footer>
     </div>
 </body>
+<script src="./index.js"></script>
 </html>
