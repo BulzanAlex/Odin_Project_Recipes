@@ -250,6 +250,12 @@ body {
     font-weight: 800;
 }
 
+.input-name:-webkit-autofill, .email:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px black inset;
+    -webkit-text-fill-color: white;
+    
+}
+
 .popup {
     position: fixed;
     background-color: white;
@@ -292,6 +298,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 27px;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .ok-btn:active {
