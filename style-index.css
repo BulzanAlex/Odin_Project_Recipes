@@ -1,5 +1,9 @@
 body {
     margin: 0px;
+    background-image: url(https://img.freepik.com/free-photo/composition-with-baking-ingredients-kitchen-accessories-white-table_169016-8713.jpg?w=1380&t=st=1676747782~exp=1676748382~hmac=2ab9d8cd009040c1684af8cbe16ece620203c5d8bb5c8b2848fe82bd347ec83a);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
 }
 
 /* .page-container {
