@@ -1,5 +1,5 @@
 let popUp = document.getElementById('popup');
-let retry = document.getElementById('retry-popup')
+let retry = document.getElementById('retry-popup');
 
 let firstName = document.getElementsByName('first-name');
 let lastName = document.getElementsByName('last-name');
