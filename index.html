@@ -83,12 +83,18 @@
                     </div>
                     <input type="text" class="email" name="email" placeholder="Enter your e-mail address"></input>
                 </div>
-                <input type="button" class="newsletter-button" value = "Subscribe" onclick="stopRefresh(); showPopUp();" ></input>
-                <div class = "popup" id="popups">
+                <input type="button" class="newsletter-button" value = "Subscribe" onclick="showPopUp(); stopRefresh();" ></input>
+                <div class = "popup" id="popup">
                     <img src="./images/tick.jpg">
                     <h2>You have successfully subscribed to our newsletter.
                     <br>Thanks!</h2>
                     <button class="ok-btn" type="button" onclick="closePopUp()">OK</button>
+                </div>
+                <div class="popup" id="retry-popup">
+                    <img src="./images/x-retry.png">
+                    <h2>Please complete all fields in order to subscribe!
+                    <br> Thanks!</h2>
+                    <button class="ok-btn" type="button" onclick="closeRetry()">OK</button>
                 </div>
             </form>
         </footer>
