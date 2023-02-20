@@ -272,7 +272,7 @@ body {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
     border-radius: 2em;
     visibility: hidden;
-    transition: 0.4s top 0.2s;
+    transition: 0.4s;
 }
 
 .openpopup {

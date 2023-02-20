@@ -21,7 +21,7 @@ function showPopUp() {
 
 function closePopUp() {
     if (popUp) {
-    popUp.classList.remove("openpopup");
+        popUp.classList.remove("openpopup");
     };
     
 };
