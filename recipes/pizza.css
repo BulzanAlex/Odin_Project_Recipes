@@ -23,7 +23,6 @@ body {
 }
 
 .container-left {
-    text-align: center;
     flex-basis: 50%;
     display: flex;
     flex-direction: column;
