@@ -6,13 +6,14 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2em;
+    text-align: center;
+    background-color: rgb(231,205,173);
 }
 
 .box-wrap img {
-    width: 30em;
-    border-radius: 1em;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    width: 80em;
+    height: 30em;
+    margin: none;
 }
 
 .box-text-wrapper {
@@ -21,44 +22,95 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;  
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .title {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
-    font-size: 3.1em;
+    font-size: 2em;
 }
 
-.text {
-    width: 29em;
+.text, .list {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.3em;
+    font-size: 1em;
+    list-style-position: inside;
 }
 
-#ingredients {
-    height: 30em;
-    flex-direction: column;
+.list {
+    margin-top: -1em;
+}
+
+.ingredients-list {
+    margin-top: 1em;
     text-align: left;
-    align-items: flex-start;
 }
 
 .subtitles {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 800;
 }
 
 .ingredients-title {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
+    margin-top: -10px;
+    text-align: center;
 }
 
-#introduction {
-    background-color: rgb(231,205,173);
+.ingredients img {
+    width: 55em;
+    height: 40em;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
 }
 
-#steps {
-    background-color: rgb(260,200,130);
-    margin-top: 3em;
+.ingredients .red-line {
+    margin-top: -0.5em;
+}
+
+.introduction img, .steps img {
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.red-line {
+    width: 5em;
+    height: 0.7em;
+    background-color: rgb(245, 66, 69);
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+}
+
+.buttons-bar {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    background: blueviolet;
+    width: 10em;
+    height: 3em;
+    border-radius: 2em;
+    text-decoration: none;
+    transition: 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button span {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.button:active {
+    transform: translate(4px, 4px);
 }
